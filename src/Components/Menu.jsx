@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Menu.css';
-import menuIcon from './Images/menu.png';
+import menuIcon from '/menu.png';
 
 const Menu = ({ onMenuItemClick }) => {
   const [menuOpen, setMenuOpen] = useState(false);
