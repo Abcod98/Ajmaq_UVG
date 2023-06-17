@@ -1,0 +1,68 @@
+.section-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.product-section {
+  padding: 20px;
+  margin: 0 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 90%;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  padding-top: 10px;
+  object-fit: contain; /* Cambiar "cover" a "contain" */
+  margin: 0 auto; /* Agregar esta línea para centrar la imagen */
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-title {
+  font-weight: 100!important;
+}
+
+.card-price {
+  font-weight: bold!important;
+  font-size: 1rem!important;
+  color: black!important;
+  margin-top: 15px!important;
+}
+
+.container-whatsapp {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.whatsapp-image {
+  width: 30px;
+  height: 30px;
+  margin: 0!important;
+}
+
+.whatsapp-image:hover {
+  cursor: pointer;
+}
+.MuiGrid-root {
+  justify-content: space-around;
+}
+
+.MuiPaper-root {
+  max-width: 1000px!important;
+}
