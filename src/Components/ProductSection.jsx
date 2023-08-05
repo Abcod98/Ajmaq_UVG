@@ -120,7 +120,7 @@ const ProductSection = () => {
 
   const handleWhatsAppClick = (event, message) => {
     event.stopPropagation();
-    const phoneNumber = '38093251'; // Reemplaza con el número de teléfono correcto
+    const phoneNumber = '59522312'; // Reemplaza con el número de teléfono correcto
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
